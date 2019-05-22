@@ -1,20 +1,18 @@
 .App {
-  text-align: center;
-  
+text-align: center;
 }
 
 .formBox{
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  flex-flow: column;
+padding: 50px;
+display: flex;
+align-items: center;
+flex-flow: column;
 }
 
 form{
-  align-self: center;
- 
+align-self: center;
 }
 
 .importButton{
-  margin-top:10px;
+margin-top:10px;
 }

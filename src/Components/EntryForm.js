@@ -20,7 +20,6 @@ if (form.checkValidity() === false) {
   e.preventDefault();
   e.stopPropagation();
   
-  
 } else{
   e.preventDefault();
 }
@@ -48,9 +47,9 @@ axios.get(`/lookupNPI/${currentNPI}`,{
     let resultCount = data.result_count;
 
 if(resultCount === 0){
-alert("No providers found. NPI may be invalid.");
+  alert("No providers found. NPI may be invalid.");
 }else if(npiField === ""){
-alert("No providers found. NPI may be invalid.");
+  alert("No providers found. NPI may be invalid.");
 }else {
 
     let firstName = data.results[0].basic.first_name;

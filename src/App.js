@@ -5,15 +5,13 @@ import EntryForm from './Components/EntryForm';
 
 
 function App() {
-  return (
-    <div className="App">
-     
+return (
+  <div className="App">
     
-     <EntryForm />
-     
+    <EntryForm />
   
-    </div>
-  );
+  </div>
+);
 }
 
 export default App;
