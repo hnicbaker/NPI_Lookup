@@ -1,3 +1,8 @@
+
+## Video 
+[![Screenshot of account creation form](https://imgur.com/NdaQIZx.jpg)](https://youtu.be/QKw_m6wC6u4)
+
+
 ## Description
 Project is an React App that allows the user to create a new provider account. All information can be entered manually, or the user can enter a valid NPI number, and the form will auto-populate. NPI info is being called from the [NPPES NPI Registry
 ](https://npiregistry.cms.hhs.gov/registry/help-api). 
@@ -12,6 +17,3 @@ Initially, I was going to create a strictly Front-End application using React, b
 
 
 
-
-## Video 
-[![Screenshot of account creation form](https://imgur.com/NdaQIZx.jpg)](https://youtu.be/QKw_m6wC6u4)
